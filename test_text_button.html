@@ -183,9 +183,17 @@
         .center-content {
             flex-grow: 1; /* Pushes footer to the bottom */
             display: flex;
+            flex-direction: column; /* Stacks the title and button vertically */
             justify-content: center;
             align-items: center;
             padding: 100px 20px 40px 20px; /* Accounts for fixed navbar */
+            text-align: center;
+        }
+
+        .center-content h1 {
+            font-size: 2.5rem;
+            color: #4f2d2c; 
+            margin-bottom: 30px;
         }
 
         .btn-large {
@@ -263,6 +271,7 @@
     </nav>
 
     <main class="center-content">
+        <h1>Text Andrew Marth</h1>
         <a href="sms:+14806521330?body=Hey Andrew, I see we just became friends on Facebook, thanks for adding me%0A%0AI see you are a Realtor in San Diego, CA%0A%0AI am a Realtor here in Phoenix, AZ so I figured I would reach out and introduce myself so that when you have a client moving here, you know who to call%0A%0AI was born and raised here and would love nothing more than the opportunity to help them, so save my contact so we can stay in touch%0A%0AAndrew Marth%0A480.652.1330%0Ahttps://andrewmarth.com/" class="btn btn-large">Send Text</a>
     </main>
 
